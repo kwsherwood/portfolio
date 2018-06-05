@@ -1,2 +1,2 @@
 fruits = ["kiwi", "apple","banana","strawberry"]
-fruits
+print(fruits)
