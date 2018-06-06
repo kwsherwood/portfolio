@@ -13,3 +13,12 @@ print(f " ...)
 
 ex.
 > print(f"Let's talk about {my_name}.")
+
+### E9 printing
+
+#### linespacing, ASCII art?
+
+string_test = """
+space     is
+     pre       served 
+"""
