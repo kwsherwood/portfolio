@@ -39,6 +39,7 @@ def count_it():
     print(f'''
     You have {nnth} nineteenth century
     and {twth} twentieth century authors.
+
     You have a total of {tot_auth} authors.''')
 
 # just modularizing by putting it all in a function
