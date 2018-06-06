@@ -1,4 +1,4 @@
-# list pratice subtracting
+# list pratice subtracting using append
 start_list = [10,20,30,40,50]
 
 # creates a blank list
