@@ -13,13 +13,19 @@ with open(filename,'r') as our_file:
 
 # take a long STRING and break it into words
 words = nltk.word_tokenize(text)
+print(words[0:30])
 
-print(words[0:1000])
 # print("words file type is",type(words)) # shows type is list
 
+print(''' ''')
+##########clear
 
+clean_words =[] #create an empty list called clean_words
+for word in words:  # step through the list, do this
+        clean_words.append(word.lower()) # append, one at a time, the new, lowercased word for each
+print(clean_words[0:30])
 
-
+# print(f"clean_words is type",type(clean_words)) # verifies this is a list
 
 
 
