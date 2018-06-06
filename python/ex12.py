@@ -1,4 +1,4 @@
-# cascading IF STATEMENTS
+# cascading IF STATEMENTS. Using list and elif
 
 
 fruits = ["tomato","kiwi", "apple","banana","strawberry"]
