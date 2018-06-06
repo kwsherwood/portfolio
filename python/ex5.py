@@ -1,3 +1,4 @@
+# list and append
 fruits = ['orange','peach','apple']
 
 results = []
