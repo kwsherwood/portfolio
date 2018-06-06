@@ -1,4 +1,4 @@
-# Add a conditional using a for a loop
+# Add a conditional using a for a loop. Interating for each "i" in a list
 
 my_places = ['Madrid','Barcelona','Havana','Cuzco']
 
