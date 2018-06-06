@@ -1,4 +1,4 @@
-# making and printing an address
+# making and printing an address. Moving through.
 p_i = {
     'fname': 'Kenneth',
     'lname': 'Sherwood',
