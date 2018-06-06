@@ -1,4 +1,4 @@
-# Create a list of four places you would like to visit. Print out each of those places using a loop
+# "for n in range(1,1000)" Create a list of four places you would like to visit. Print out each of those places using a loop
 
 my_places = ['Madrid','Barcelona','Havana','Cuzco']
 
