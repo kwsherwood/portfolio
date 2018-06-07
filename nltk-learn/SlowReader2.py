@@ -6,24 +6,38 @@ def open_file_and_get_text(filename):
         text = our_file.read()
     return text  # takes the file, reads it. stores it as a string
 
+def sentence_printer():
+    ctr = 0
+    while ctr < 5:
+        s_max_len = 100  # max of sentences ot permit
+        t_len = (len(w_sents[ctr]))
+
+        if ((t_len <s_max_len)):
+            print(f"Sentence number {ctr} ")
+            print(len(w_sents[ctr]))
+            print(w_sents[ctr])
+        ctr = ctr + 1
+
+# ----------------------------------------
+
 our_file = "walden.txt"
 text = open_file_and_get_text(our_file)
-w_words = nltk.word_tokenize(text)
-w_sents = nltk.sent_tokenize(text)
+w_words = nltk.word_tokenize(text) # nltk list for working words
+w_sents = nltk.sent_tokenize(text) # nltk list of all sentences
+sentence_printer() # calls sentence printer function
 
 
 
-ctr = 0
-while ctr < 5:
-    s_max_len = 100  # max of sentences ot permit
-    t_len = (len(w_sents[ctr]))
 
-    if ((t_len <s_max_len)):
-        print(f"Sentence number {ctr} ")
-        print(len(w_sents[ctr]))
-        print(w_sents[ctr])
-    ctr = ctr + 1
 
+
+
+
+
+
+
+
+### move up later
 
 
 # w_words is now a list
