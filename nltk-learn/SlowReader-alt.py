@@ -1,5 +1,7 @@
 import nltk, re, pprint
 # from nltk import work_tokenize # unclear if necessary
+
+
 # READ FILE
 def open_file_and_get_text(filename):
     with open(filename,'r') as our_file:
@@ -9,22 +11,15 @@ def open_file_and_get_text(filename):
 our_file = "walden.txt"
 text = open_file_and_get_text(our_file)
 w_words = nltk.word_tokenize(text)
-
-
-a_words = text.concordance("bottom")
-b_words = w_words.concordance("bottom")
-
-
 # w_words is now a list
 # print("These are words")
 # print(w_words[0:30]) # prints first 29 items in List
 
-# nltk_walden_text = nltk.Text(our_file)
+nltk_walden_text = nltk.Text(our_file)
 
-# print(nltk_walden_text.concordance("the"))
+print(nltk_walden_text.concordance("the"))
 
-# print(nltk_walden_text)
-# print(w_words[0:30])
+#print(nltk_walden_text)
 
 
 
