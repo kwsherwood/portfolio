@@ -14,7 +14,7 @@ w_words = nltk.word_tokenize(text)
 # w_words is now a list
 print("These are words")
 print(w_words[0:30]) # prints first 29 items in List
-nltk_walden_text = nltk.Text(our_file)
+nltk_walden_text = nltk.Text(w_words)
 print(nltk_walden_text.concordance("the"))
 
 # TOKENIZE file
