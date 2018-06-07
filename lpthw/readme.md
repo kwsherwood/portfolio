@@ -18,7 +18,10 @@ ex.
 
 #### linespacing, ASCII art?
 
-string_test = """
+str_test = """
 space     is
-     pre       served 
+     pre       served
 """
+print(str_test)
+
+### E10 end '  ' and input
